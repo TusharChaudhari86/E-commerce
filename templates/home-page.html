@@ -1,59 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Material Design Bootstrap</title>
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!-- Bootstrap core CSS -->
-  <link href="../static/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Material Design Bootstrap -->
-  <link href="../static/css/mdb.min.css" rel="stylesheet">
-  <!-- Your custom styles (optional) -->
-  <link href="../static/css/style.min.css" rel="stylesheet">
-  <style type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css"
+          integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.3.8/themes/default/style.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <style type="text/css">
     html,
     body,
     header,
     .carousel {
-      height: 60vh;
+      height: 62vh;
+      bottom: -50px;
     }
 
-    @media (max-width: 740px) {
+
+    @media (min-width: 500px) and (max-width: 450px) {
 
       html,
       body,
       header,
       .carousel {
-        height: 100vh;
+        height: 100%;
       }
     }
-
-    @media (min-width: 800px) and (max-width: 850px) {
-
-      html,
-      body,
-      header,
-      .carousel {
-        height: 100vh;
-      }
-    }
-
   </style>
 </head>
 
 <body>
 
   <!-- Navbar -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light black scrolling-navbar" style="background-color: rgba(212,223,210,0.46)">
     <div class="container">
 
       <!-- Brand -->
       <a class="navbar-brand waves-effect" href="https://mdbootstrap.com/docs/jquery/" target="_blank">
-        <strong class="blue-text">MDB</strong>
+        <strong class="blue">Webcart</strong>
       </a>
 
       <!-- Collapse -->
@@ -68,7 +67,7 @@
         <!-- Left -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link waves-effect" href="#">Home
+              <a class="nav-link " href="#">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -118,23 +117,17 @@
   </nav>
   <!-- Navbar -->
 
+
   <!--Carousel Wrapper-->
   <div id="carousel-example-1z" class="carousel slide carousel-fade pt-4" data-ride="carousel">
-
-    <!--Indicators-->
-    <ol class="carousel-indicators">
-      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
-      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
-      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
-    </ol>
-    <!--/.Indicators-->
 
     <!--Slides-->
     <div class="carousel-inner" role="listbox">
 
       <!--First slide-->
       <div class="carousel-item active">
-        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%282%29.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="view"
+          style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%282%29.jpg'); background-repeat: no-repeat; background-size: cover;">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
@@ -155,10 +148,26 @@
                   available. Create your own, stunning website.</strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+                class="btn btn-outline-white btn-lg">Start
                 free tutorial
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
             </div>
             <!-- Content -->
 
@@ -171,7 +180,8 @@
 
       <!--Second slide-->
       <div class="carousel-item">
-        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%283%29.jpg'); background-repeat: no-repeat; background-size: cover;">
+        <div class="view"
+          style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%283%29.jpg'); background-repeat: no-repeat; background-size: cover;">
 
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
@@ -192,10 +202,26 @@
                   available. Create your own, stunning website.</strong>
               </p>
 
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+                class="btn btn-outline-white btn-lg">Start
                 free tutorial
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
             </div>
             <!-- Content -->
 
@@ -208,41 +234,50 @@
 
       <!--Third slide-->
       <div class="carousel-item">
-        <div class="view" style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%285%29.jpg'); background-repeat: no-repeat; background-size: cover;">
-
+        <div class="view"
+          style="background-image: url('https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/8-col/img%285%29.jpg'); background-repeat: no-repeat; background-size: cover;">
           <!-- Mask & flexbox options-->
           <div class="mask rgba-black-strong d-flex justify-content-center align-items-center">
-
             <!-- Content -->
             <div class="text-center white-text mx-5 wow fadeIn">
               <h1 class="mb-4">
                 <strong>Learn Bootstrap 4 with MDB</strong>
               </h1>
-
               <p>
                 <strong>Best & free guide of responsive web design</strong>
               </p>
-
               <p class="mb-4 d-none d-md-block">
                 <strong>The most comprehensive tutorial for the Bootstrap 4. Loved by over 500 000 users. Video and
                   written versions
                   available. Create your own, stunning website.</strong>
               </p>
-
-              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg">Start
+              <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/"
+                class="btn btn-outline-white btn-lg">Start
                 free tutorial
                 <i class="fas fa-graduation-cap ml-2"></i>
               </a>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+                <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
+              <p>
+                <strong>Best & free guide of responsive web design</strong>
+              </p>
             </div>
             <!-- Content -->
-
           </div>
           <!-- Mask & flexbox options-->
-
         </div>
       </div>
       <!--/Third slide-->
-
     </div>
     <!--/.Slides-->
 
@@ -260,15 +295,16 @@
   </div>
   <!--/.Carousel Wrapper-->
 
-  <!--Main layout-->
+
+  <!--Main layout includes cards-->
   <main>
     <div class="container">
 
       <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5">
+      <nav class="navbar navbar-expand-lg navbar-dark mdb-color lighten-3 mt-3 mb-5" style="background-color: rgba(212,223,210,0.46)">
 
         <!-- Navbar brand -->
-        <span class="navbar-brand">Categories:</span>
+        <span class="navbar-brand" style="color: #0f0f0f">Categories:</span>
 
         <!-- Collapse button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -282,18 +318,18 @@
           <!-- Links -->
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">All
+              <a class="nav-link" href="#" style="color: #0f0f0f">All
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shirts</a>
+              <a class="nav-link" href="#" style="color: #0f0f0f">Shirts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sport wears</a>
+              <a class="nav-link" href="#" style="color: #0f0f0f">Sport wears</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Outwears</a>
+              <a class="nav-link" href="#" style="color: #0f0f0f">Outwears</a>
             </li>
 
           </ul>
@@ -313,10 +349,10 @@
       <!--Section: Products v.3-->
       <section class="text-center mb-4">
 
-        <!--Grid row-->
+        <!--Grid row first row -->
         <div class="row wow fadeIn">
 
-          <!--Grid column-->
+          <!--1st Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -357,9 +393,9 @@
             <!--Card-->
 
           </div>
-          <!--Grid column-->
+          <!--1st Grid column-->
 
-          <!--Grid column-->
+          <!--2nd Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -398,9 +434,9 @@
             <!--Card-->
 
           </div>
-          <!--Grid column-->
+          <!--2nd Grid column-->
 
-          <!--Grid column-->
+          <!--3rd Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -441,9 +477,9 @@
             <!--Card-->
 
           </div>
-          <!--Grid column-->
+          <!--3rd Grid column-->
 
-          <!--Fourth column-->
+          <!--4th Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -482,15 +518,15 @@
             <!--Card-->
 
           </div>
-          <!--Fourth column-->
+          <!--4th column-->
 
         </div>
-        <!--Grid row-->
+        <!--Grid row first row -->
 
-        <!--Grid row-->
+        <!--Grid row second -->
         <div class="row wow fadeIn">
 
-          <!--Grid column-->
+          <!--1st Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -531,9 +567,9 @@
             <!--Card-->
 
           </div>
-          <!--Grid column-->
+          <!--1st Grid column-->
 
-          <!--Grid column-->
+          <!--2nd Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -572,9 +608,9 @@
             <!--Card-->
 
           </div>
-          <!--Grid column-->
+          <!--2nd Grid column-->
 
-          <!--Grid column-->
+          <!--3rd Grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -615,9 +651,9 @@
             <!--Card-->
 
           </div>
-          <!--Grid column-->
+          <!--3rd Grid column-->
 
-          <!--Fourth column-->
+          <!--4th grid column-->
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
@@ -656,10 +692,10 @@
             <!--Card-->
 
           </div>
-          <!--Fourth column-->
+          <!--4th grid column-->
 
         </div>
-        <!--Grid row-->
+        <!--Grid row second -->
 
       </section>
       <!--Section: Products v.3-->
@@ -706,7 +742,8 @@
 
     </div>
   </main>
-  <!--Main layout-->
+  <!--Main layout includes cards-->
+
 
   <!--Footer-->
   <footer class="page-footer text-center font-small mt-4 wow fadeIn">
@@ -772,21 +809,23 @@
   </footer>
   <!--/.Footer-->
 
-  <!-- SCRIPTS -->
-  <!-- JQuery -->
-  <script type="text/javascript" src="../static/js/jquery-3.4.1.min.js"></script>
-  <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="../static/js/popper.min.js"></script>
-  <!-- Bootstrap core JavaScript -->
-  <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
-  <!-- MDB core JavaScript -->
-  <script type="text/javascript" src="../static/js/mdb.min.js"></script>
-  <!-- Initializations -->
-  <script type="text/javascript">
-    // Animations initialization
-    new WOW().init();
 
-  </script>
+  <!-- SCRIPTS -->
+
+  <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"
+            integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9"
+            crossorigin="anonymous"></script>
+      <!-- Initializations -->
+      <script type="text/javascript"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+      <script>new WOW().init();</script>
 </body>
 
 </html>
